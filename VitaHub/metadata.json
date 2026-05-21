@@ -1,0 +1,6 @@
+{
+  "name": "VitaHub",
+  "description": "A modern healthcare web application featuring a clean architecture, mock authentication, protected routes, and a responsive dark/light mode design.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

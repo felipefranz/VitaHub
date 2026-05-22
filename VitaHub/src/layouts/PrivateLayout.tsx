@@ -142,6 +142,17 @@ export function PrivateLayout() {
             <span className="text-[10px] font-medium leading-none">{link.label}</span>
           </NavLink>
         ))}
+
+        <button
+          type="button"
+          onClick={logout}
+          className="flex flex-col items-center justify-center w-full h-full space-y-1 text-[var(--muted-foreground)] hover:text-red-500"
+          aria-label="Sair"
+          title="Sair"
+        >
+          <LogOut size={20} className="shrink-0" />
+          <span className="text-[10px] font-medium leading-none">Sair</span>
+        </button>
       </nav>
     </div>
   );

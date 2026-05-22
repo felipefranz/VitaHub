@@ -1,0 +1,48 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+VitaHub/node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Output directories
+dist/
+VitaHub/dist/
+tmp/
+out/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Private env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.state.local
+VitaHub/.env
+VitaHub/.env.local
+VitaHub/.env.development.local
+VitaHub/.env.test.local
+VitaHub/.env.production.local
